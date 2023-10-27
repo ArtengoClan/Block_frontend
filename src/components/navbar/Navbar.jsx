@@ -14,12 +14,11 @@ const Navbar = () => {
             <Image src='/tiktok.png' alt='tiktok' width={24} height={24} />
             <Image src='/youtube.png' alt='youtube' width={24} height={24} />
         </div>
-        <div className={sl.logo}>lamablog</div>
+        <div className={sl.logo}>Blog</div>
         <div className={sl.links}>
             <ThemeToggle />
             <Link href='/' className={sl.link}>Homepage</Link>
-            <Link href='/' className={sl.link}>Contact</Link>
-            <Link href='/' className={sl.link}>About</Link>
+            <Link href='/blog' className={sl.link}>Blog</Link>
             <AuthLinks />
         </div>
     </div>
