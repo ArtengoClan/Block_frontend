@@ -1,2 +1,2 @@
-# Link to website
+# Link website
 https://block-frontend-smoky.vercel.app/
